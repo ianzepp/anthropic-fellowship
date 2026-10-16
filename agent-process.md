@@ -36,16 +36,17 @@ private for now. The public Faber repositories are listed in
 | --- | ---: | ---: |
 | Mind (orchestrator) | 23,216 | 43% |
 | Hands (implementers) | 15,850 | 29% |
-| Operator (Ian Zepp) | 2,871 | 5% |
+| "Operator" address (not typed by the operator) | 2,871 | 5% |
 | Auditors | 2,676 | 5% |
 | Merge lane | 2,126 | 4% |
 | Planners | 2,070 | 4% |
 | Head-CTO (correctness review) | 1,058 | 2% |
 | Other roles (reviewers, hunters, lint, triage, docs, heads) | 4,214 | 8% |
 
-The operator writes about one message in twenty. That is direction,
-not implementation: goals, campaigns, rulings on disputed questions,
-and corrections when the process drifts.
+The operator does not send mail. Direction happens in chat sessions
+with the agent assigned the Mind role, which then coordinates the rest
+by mail. The 2,871 messages from the "operator" address were not typed
+by the operator, so this table does not measure operator involvement.
 
 ## Faber: what independent review catches
 
@@ -103,9 +104,8 @@ in private repositories (`swarm` and related). Its mailspace covers
 | Other (phase reports, scoped notes) | 18 | 16% |
 | **Total** | **113** | |
 
-The mailspace records mail only. Direction the operator gave in live
-agent sessions is not counted, so the 16 operator messages are a floor,
-not a measure of involvement.
+As in Faber, the operator directed this project through chat sessions
+with the Mind, which the mailspace does not record.
 
 Here about one audit in three turned work back, a higher rate than in
 Faber. Clean passes were about as rare as in Faber.

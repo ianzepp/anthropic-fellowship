@@ -8,8 +8,9 @@ from this repository.
 Ian Zepp directs the work. That means choosing the questions, designing
 the process and the test frameworks, defining scenarios and their
 variants, writing predictions, raising edge cases, ruling on disputed
-decisions, and labeling gold data by hand. In the Faber process this is
-about one message in twenty (see [`agent-process.md`](agent-process.md)).
+decisions, and labeling gold data by hand. The operator directs through chat sessions
+with the agent assigned the Mind role, which coordinates the other
+agents (see [`agent-process.md`](agent-process.md)).
 
 ## The agents' role
 
