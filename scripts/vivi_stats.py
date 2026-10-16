@@ -21,10 +21,11 @@ from pathlib import Path
 
 # Auditor report subjects read "auditor report: <verdict> ...".
 VERDICT_GROUPS = {
-    "clean": {"clean_pass", "clean", "pass", "clean_range", "conditional_pass"},
-    "admitted": {"admitted", "go-with-notes", "admitted-with-residuals"},
-    "residual": {"residual"},
-    "revise": {"revise"},
+    "clean": {"clean_pass", "clean", "pass", "clean_range", "conditional_pass", "verified"},
+    "admitted": {"admitted", "go-with-notes", "admitted-with-residuals",
+                 "admitted-with-dependencies", "a:admitted", "ship"},
+    "residual": {"residual", "pass_with_findings"},
+    "revise": {"revise", "not_verified", "proof_insufficient"},
     "blocked": {"block_ship", "block", "block_range"},
 }
 

@@ -1,0 +1,66 @@
+{
+  "window": {
+    "first": "2026-07-11T14:29:57+00:00",
+    "last": "2026-09-22T17:33:47+00:00"
+  },
+  "messages": 6129,
+  "events": 14916,
+  "messages_by_month": {
+    "2026-07": 3352,
+    "2026-08": 331,
+    "2026-09": 2446
+  },
+  "messages_by_sender_role": {
+    "mind": 2826,
+    "hand": 1692,
+    "auditor": 473,
+    "head-cto": 416,
+    "planner": 245,
+    "head-ceo": 215,
+    "head-cxo": 55,
+    "cadence": 45,
+    "head-cso": 37,
+    "integration": 36,
+    "head-coo": 24,
+    "mgs-hunter": 18,
+    "operator": 16,
+    "founders-council": 9,
+    "head-cpo": 8,
+    "zcode": 7,
+    "mgs-reviewer": 4,
+    "mgs-strategist": 2,
+    "mgs-correctness": 1
+  },
+  "auditor_reports": {
+    "total": 113,
+    "by_verdict": {
+      "clean": 21,
+      "blocked": 20,
+      "residual": 19,
+      "revise": 19,
+      "other": 18,
+      "admitted": 16
+    }
+  },
+  "work_items_by_state": {
+    "active": 1,
+    "done": 178,
+    "open": 41
+  },
+  "work_assignments_by_role": {
+    "hand": 87,
+    "auditor": 1
+  },
+  "assignments_per_item": {
+    "1": 88
+  },
+  "commits_since_window_start": {
+    "swarm": 900,
+    "swarm-cli": 210,
+    "swarm-web": 61,
+    "swarm-hub": 25,
+    "swarm-doc": 13,
+    "factory": 528,
+    "integration": 168
+  }
+}

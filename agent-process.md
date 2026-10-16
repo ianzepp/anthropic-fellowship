@@ -1,6 +1,7 @@
-# Directing AI agents at scale: the Faber process
+# Directing AI agents at scale
 
-This page measures how the Faber language project is built. One
+This page measures how two projects are built: the Faber language
+(main section) and Minted Geek Swarm (second section, below). One
 operator directs teams of AI agents through [Vivi](https://github.com/ianzepp/vivi),
 a local mailspace for agents, using the [Tugboat](https://github.com/ianzepp/tugboat)
 protocol. Tugboat separates the roles: an orchestrator (Mind),
@@ -8,11 +9,12 @@ implementers (Hands), planners, independent auditors, and advisory
 "heads". Implementers do not audit their own work.
 
 All numbers come from [`scripts/vivi_stats.py`](scripts/vivi_stats.py),
-run read-only against the project's Vivi database on 2026-10-16. The raw
-output is [`data/vivi-faberlang-2026-10-16.json`](data/vivi-faberlang-2026-10-16.json).
-It contains counts only; no message content leaves the database.
+run read-only against each project's Vivi database on 2026-10-16. The raw
+outputs are [`data/vivi-faberlang-2026-10-16.json`](data/vivi-faberlang-2026-10-16.json)
+and [`data/vivi-mintedgeek-2026-10-16.json`](data/vivi-mintedgeek-2026-10-16.json).
+They contain counts only; no message content leaves either database.
 
-## Scale
+## Faber: scale
 
 Window: 2026-07-09 to 2026-10-16, about 14 weeks.
 
@@ -28,7 +30,7 @@ Most commits are in `radix`, the compiler monorepo (19,115). It is
 private for now. The public Faber repositories are listed in
 [`evidence.md`](evidence.md).
 
-## Who talks
+## Faber: who talks
 
 | Role | Messages | Share |
 | --- | ---: | ---: |
@@ -45,7 +47,7 @@ The operator writes about one message in twenty. That is direction,
 not implementation: goals, campaigns, rulings on disputed questions,
 and corrections when the process drifts.
 
-## What independent review catches
+## Faber: what independent review catches
 
 Auditors are separate agents from the implementers. They review
 delivered work against its specification and the live repository, and
@@ -66,6 +68,47 @@ with a third agent synthesizing the two reports.
 About one audit in five turned work back. Two in five passed only with
 recorded defects that became follow-up work. Fewer than one in five
 found nothing.
+
+## Second project: Minted Geek Swarm
+
+Minted Geek Swarm is Minted Geek's agent platform, built the same way
+in private repositories (`swarm` and related). Its mailspace covers
+2026-07-11 to 2026-09-22, about ten weeks.
+
+| Measure | Count |
+| --- | ---: |
+| Messages | 6,129 |
+| Mailspace events | 14,916 |
+| Work items, of which done | 220 / 178 |
+| Commits across the Swarm repositories, 2026-07-11 to 2026-10-16 | 1,905 |
+
+| Role | Messages | Share |
+| --- | ---: | ---: |
+| Mind (orchestrator) | 2,826 | 46% |
+| Hands (implementers) | 1,692 | 28% |
+| Auditors | 473 | 8% |
+| Head-CTO (correctness review) | 416 | 7% |
+| Planners | 245 | 4% |
+| Head-CEO | 215 | 4% |
+| Other roles | 246 | 4% |
+| Operator | 16 | 0.3% |
+
+| Auditor verdict | Reports | Share |
+| --- | ---: | ---: |
+| Clean pass or verified | 21 | 19% |
+| Admitted as delivered | 16 | 14% |
+| Admitted with residual issues recorded | 19 | 17% |
+| Sent back for revision | 19 | 17% |
+| Blocked from shipping | 20 | 18% |
+| Other (phase reports, scoped notes) | 18 | 16% |
+| **Total** | **113** | |
+
+The mailspace records mail only. Direction the operator gave in live
+agent sessions is not counted, so the 16 operator messages are a floor,
+not a measure of involvement.
+
+Here about one audit in three turned work back, a higher rate than in
+Faber. Clean passes were about as rare as in Faber.
 
 ## What these numbers do and don't show
 

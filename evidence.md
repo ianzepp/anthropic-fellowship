@@ -32,6 +32,15 @@ drawn from them are published here as aggregates only.
   LLM-authored browser capabilities and their deterministic replay, with
   reviewed evidence and a credential-scanning commit gate.
 
+## Minted Geek Swarm
+
+Minted Geek's agent platform, built through the same process. The
+source repositories are private; the measured statistics are in
+[`agent-process.md`](agent-process.md).
+
+- [mintedgeek/releases](https://github.com/mintedgeek/releases): public
+  binary releases of the Minted Geek tools.
+
 ## The Faber language
 
 Faber is a programming language and compiler built through the process
