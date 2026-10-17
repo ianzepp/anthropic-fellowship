@@ -21,8 +21,10 @@ links of other people are not in this repository.
   Separate fields: <https://github.com/ianzepp>,
   <https://linkedin.com/in/ianzepp>, and <https://ianzepp.dev>.
 - References: one confirmed reference. The form marks all three
-  reference slots as required, so the second and third cannot be left
-  empty. The person's name and contact details are not recorded here.
+  reference slots as required. He has no other references who worked
+  with him on AI projects, so slots 2 and 3 say there is no reference
+  and use `noreply@example.com`, a reserved domain that reaches no one.
+  The person's name and contact details are not recorded here.
 - Other commitments: no employment or client work. Personal projects
   continue. He can give the program 40 hours a week.
 - Workspace: Other. Asheville, North Carolina. If a shared workspace is
