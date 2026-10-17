@@ -8,7 +8,7 @@ verbatim. The earlier drafted versions are in commit `f9efe01`.
 | --- | --- |
 | [`why.md`](why.md) | Why this program. 985 characters. Cap is 1,500. |
 | [`research-areas.md`](research-areas.md) | Research areas for the security stream. 796 characters. Cap is 1,500. |
-| [`anything-else.md`](anything-else.md) | Anything else. The Python statement. |
+| [`anything-else.md`](anything-else.md) | Anything else. Background and the Python statement. 689 characters. |
 | [`logistics.md`](logistics.md) | The remaining settled answers. |
 
 The form is the Airtable page linked from Anthropic's AI Safety &
