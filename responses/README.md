@@ -10,6 +10,10 @@ from the operator's own account. Not yet submitted.
 | [`anything-else.md`](anything-else.md) | Anything else. The Python statement. |
 | [`logistics.md`](logistics.md) | The remaining settled answers. |
 
-Two percents are still unchosen: the chance of accepting a full-time
-role that requires moving to San Francisco, and the chance of
-continuing in the security stream after the program.
+The form is the Airtable page linked from Anthropic's AI Safety &
+Security Fellows posting on Greenhouse. The posting's deadline is
+October 18.
+
+Both likelihood fields are optional on the form. The offer answer goes
+in as text with the one percent he gave. The stream answer is left
+blank.

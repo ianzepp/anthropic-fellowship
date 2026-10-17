@@ -27,5 +27,6 @@ each session.
 The raw training exports, with tool-call payloads, stay out of this
 repo. The markdown transcripts are the record.
 
-The session that captured the form answers is not here yet. It will be
-added when that session is finished.
+The session that captured the form answers is not here. Its log
+records a reference's name and email address, so it stays out of this
+repository.
