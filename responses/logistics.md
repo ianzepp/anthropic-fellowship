@@ -20,11 +20,12 @@ links of other people are not in this repository.
   <https://github.com/ianzepp/cassio>.
   Separate fields: <https://github.com/ianzepp>,
   <https://linkedin.com/in/ianzepp>, and <https://ianzepp.dev>.
-- References: one confirmed reference. The form marks all three
-  reference slots as required. He has no other references who worked
-  with him on AI projects, so slots 2 and 3 say there is no reference
-  and use `noreply@example.com`, a reserved domain that reaches no one.
-  The person's name and contact details are not recorded here.
+- References: two confirmed references, both from his Gauntlet AI
+  cohort. The form marks all three slots as required. The third slot
+  says TBD, with a note: if a third reference is required, he can
+  supply work-history references and LinkedIn, but none of them worked
+  closely with him on an AI project or did research with him. Names
+  and contact details are not recorded here.
 - Other commitments: no employment or client work. Personal projects
   continue. He can give the program 40 hours a week.
 - Workspace: Other. Asheville, North Carolina. If a shared workspace is
