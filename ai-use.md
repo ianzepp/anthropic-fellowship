@@ -81,4 +81,7 @@ its README. Two points are worth repeating here:
 ## This repository
 
 The documents here were drafted by Claude (Opus 5.5) from the operator's
-direction and from measured data, and reviewed by the operator.
+direction and from measured data, and reviewed by the operator. The
+exception is the three narrative form answers in
+[`responses/`](responses/): the operator wrote those himself, and they
+are recorded verbatim.

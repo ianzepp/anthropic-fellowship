@@ -12,8 +12,7 @@ application. The GLM 5.3 session is where the October grid was run.
 
 ## AI safety research
 
-- **llm-pressure-trials** (*private until submission*;
-  `github.com/ianzepp/llm-pressure-trials`). Behavioral pressure trials
+- [ianzepp/llm-pressure-trials](https://github.com/ianzepp/llm-pressure-trials). Behavioral pressure trials
   run January–March 2026 and re-run against current models in October
   2026, with pre-registered predictions and a grader audit. Summary in
   [`research-summary.md`](research-summary.md).

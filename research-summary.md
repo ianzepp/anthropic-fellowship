@@ -1,7 +1,7 @@
 # Research summary: LLM pressure trials
 
-Repository: `github.com/ianzepp/llm-pressure-trials` (private until
-submission). Start with `docs/findings/overview.md` there.
+Repository: <https://github.com/ianzepp/llm-pressure-trials>. Start
+with `docs/findings/overview.md` there.
 
 ## What it is
 

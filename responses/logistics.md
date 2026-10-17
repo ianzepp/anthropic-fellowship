@@ -14,7 +14,7 @@ links of other people are not in this repository.
   interview.
 - Resume to upload: `Ian-Zepp-Anthropic-Fellowship.pdf`. It is not in
   this repository. It contains a phone number and an email address.
-- Links, once this repository and the trials repository are public:
+- Links:
   this repository, `llm-pressure-trials`,
   <https://github.com/faberlang/faber>, and
   <https://github.com/ianzepp/cassio>.

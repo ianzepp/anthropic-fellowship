@@ -12,7 +12,7 @@ Supporting material for an application to the Anthropic Fellows Program
 | [`ai-use.md`](ai-use.md) | Who did what: the operator's role and the agents' role, stated plainly |
 | [`evidence.md`](evidence.md) | Links to the public repositories behind each claim |
 | [`transcripts/`](transcripts/) | The Claude drafting session, the GLM session that directed the October grid, and the five hands that wrote it |
-| [`responses/`](responses/) | Draft text for the application form |
+| [`responses/`](responses/) | The answers submitted on the application form |
 
 ## Reproducing the numbers
 
@@ -22,7 +22,7 @@ output is committed in [`data/`](data/) and contains counts only.
 
 ## Status
 
-Draft form responses are in [`responses/`](responses/). They have not
-been submitted. This repository is private and will be made public at
-submission. Local notes that name other people are not in the
+Submitted on 2026-10-17 through the Constellation application form.
+The form answers are in [`responses/`](responses/). This repository and
+`llm-pressure-trials` were made public for the submission. Local notes that name other people are not in the
 repository.
